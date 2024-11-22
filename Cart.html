@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zay Shop - Product Detail Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <script src="/assets/js/Cart.js" defer></script>
+</head>
+
+<body>
+
+<!-- Item List -->
+<div class="item-total container border rounded m-5 p-3 align-items-center">
+    
+    <div class="d-flex flex-row border-bottom justify-content-between align-items-center mb-3">
+        <h3>Cart Items:</h3>
+        <div class="d-flex mx-2 align-items-center">
+            <h3 class="mx-5 px-5">Price</h3>
+            <h3 class="mx-5 px-5">Quantity</h3>
+        </div>
+    </div>
+
+ 
+    <div class="cart-item d-flex flex-row border-bottom justify-content-between align-items-center mb-3">
+        <div class="d-flex flex-row align-items-center p-3">
+            <img style="width: 100px; height: 100px;" src="assets/img/shoe1.jpg" alt="Product Image">
+            <h4 class="mx-4">T-shirt</h4>
+        </div>
+        <div class="d-flex mx-2 align-items-center">
+            <div class="mx-5 px-5">
+                <input class="quantity-input" style="padding: 10px; font-size: 14px; width: 50px;" type="number" value="1" min="1">
+            </div>
+            <div class="d-flex flex-row align-items-center">
+                <h3 class="price-item px-3 pt-2" data-price="249">$249</h3>
+                <button class="remove-btn btn btn-danger px-3" type="button">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Section -->
+    <div class="d-flex flex-row align-items-center justify-content-center">
+        <h2>Total:</h2>
+        <span><h2 class="total-price">$249</h2></span>
+    </div>
+</div>
+
+</body>
+
+</html>
